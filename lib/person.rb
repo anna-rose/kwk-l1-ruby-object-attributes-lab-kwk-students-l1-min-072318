@@ -1,17 +1,17 @@
 # person.rb
 class Person 
-  def name=(dog_name)
-    @name = dog_name
+  def name=(person)
+    @name = person_name
   end
  
   def name
     @name
   end
-  def breed=(breed)
-    @breed = breed
+  def job=(job)
+    @job = job
   end
  
-  def breed
-    @breed
+  def job
+    @job
   end
 end
